@@ -96,3 +96,9 @@ steps ASAP while it is still functional.
 
 If your Tonneau jams, contact Rivian service. They'll open it fully and lock it out until
 the final solution is released.
+
+# Legal
+
+Rivian is a registered trademark of [Rivian](https://rivian.com).
+This guide is unofficial and has no direct relationship with Rivian.
+The authors will accept no responsibility if the steps in this guide break your vehicle or void your warranty.
