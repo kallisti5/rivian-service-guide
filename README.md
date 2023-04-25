@@ -1,6 +1,9 @@
-# Rivian Tech Information
+# Rivian Service Guide
 
-Welcome to the Rivian tech info repo!  Here i'll document the things not in the user manual.
+Welcome to the unofficial Rivian Service Guide!
+Here I'll document the things not in the user manual until Rivian makes a Service Manual available.
+
+# Repair
 
 ## Service Menu
 
@@ -57,13 +60,24 @@ AGAIN FOR AT LEAST 1-2 hours!!!
 **Process:**
 Hold the far left steering wheel button and the emergency flasher for 15 seconds.
 
+# Process
+
 ## Changing Ownership
 
 As of Jan 2023, If you purchase a Rivian from a third-party you must email Rivian a copy of the
 bill of sale and a copy of your drivers license. The process takes 7-10 days.. so do it ASAP after
 purchase.
 
-## Tonneau Cover Problems
+# Known Problems
+
+## Charging
+
+As of April 2023, If you have a time-based charging schedule on your level 2 EVSE, the Rivian can
+refuse to charge when your EVSE activates (the vehicle being locked and trying to provide power
+might be the fault scenario). It's recommended to not use EVSE-based scheduling and use the Rivian's
+built-in scheduling to resolve this.
+
+## Automatic Tonneau Cover
 
 The automatic Tonneau cover sold on early vehicles *will* jam and fail with dirt + age.
 Rivian is currently working on a free fix for existing vehicles.
