@@ -96,6 +96,26 @@ purchase.
 Currently, costs for a mobile Rivian Service Technician to show up for a non-warranty covered
 trip are a steep $700+.  Talk to customer service and make sure your work is covered by warranty.
 
+## Tire Rotation
+
+> TIP: If you have a full size spare, be sure to rotate your spare into the mix before 8k miles!
+> This will give you 25% more tire life. After around 10k miles of wear, the tread difference
+> generally gets too great to perform a 5-tire rotation.
+
+### Conserve Mode
+
+Conserve mode will consume your front tires at a faster rate than your rear. (conserve is front
+wheel drive). Be extra sure to practice good tire rotation when using conserve mode!
+
+### Lug Nut Torque
+
+Lug nuts should be torqued to 190 Nm / 140 Ft Lb in a standard star pattern
+
+### TPMS Sensors
+
+The Rivian vehicles auto-learn the TPMS sensor positions after a tire rotation. Rivian support
+has confirmed this only takes 10-15 minutes of driving. No tool needed.
+
 # Known Problems
 
 ## Charging
