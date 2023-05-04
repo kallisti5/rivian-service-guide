@@ -102,6 +102,9 @@ trip are a steep $700+.  Talk to customer service and make sure your work is cov
 > This will give you 25% more tire life. After around 10k miles of wear, the tread difference
 > generally gets too great to perform a 5-tire rotation.
 
+Be sure to set the highest off-road ride-height, and enable tire change mode in the service menu!
+It's recommended to have at least two jack methods to enable you access to two tires at a time.
+
 ### Conserve Mode
 
 Conserve mode will consume your front tires at a faster rate than your rear. (conserve is front
