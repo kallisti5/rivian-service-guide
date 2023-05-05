@@ -148,6 +148,12 @@ steps ASAP while it is still functional.
 If your Tonneau jams, contact Rivian service. They'll open it fully and lock it out until
 the final solution is released.
 
+# Consumables
+
+* Windshield Wiper Blades
+  * Front Right: 18"
+  * Front Left: 24"
+
 # Legal
 
 Rivian is a registered trademark of [Rivian](https://rivian.com).
