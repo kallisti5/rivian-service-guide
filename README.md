@@ -121,13 +121,6 @@ has confirmed this only takes 10-15 minutes of driving. No tool needed.
 
 # Known Problems
 
-## Charging
-
-As of April 2023, If you have a time-based charging schedule on your level 2 EVSE, the Rivian can
-refuse to charge when your EVSE activates (the vehicle being locked and trying to provide power
-might be the fault scenario). It's recommended to not use EVSE-based scheduling and use the Rivian's
-built-in scheduling to resolve this.
-
 ## Automatic Tonneau Cover
 
 The automatic Tonneau cover sold on early vehicles *will* jam and fail with dirt + age.
@@ -147,6 +140,30 @@ steps ASAP while it is still functional.
 
 If your Tonneau jams, contact Rivian service. They'll open it fully and lock it out until
 the final solution is released.
+
+[RSB-60-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228730-0001.pdf) -- Disable
+
+## Half-shaft Issues
+
+On 2022 Rivian R1T / R1S vehicles, the bolts of the half-shafts can back out resulting in a "tinging" noise while driving at low speeds.  Eventually the center cap of the wheel can "pop off" resulting in the loss of the bolt.
+
+This is purely a cosmetic (sound) issue, and is reported to not cause any damage to the vehicle.
+
+[RCA-38-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235544-0001.pdf) -- Excessive Clearance
+[RCA-38-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235543-0001.pdf) -- Inadequate Half-shaft Spline Interface
+
+## Fluid Loss in front or rear drive motor units
+
+Early 2022 Rivian R1T can suffer a slow loss of fluids resulting in drive unit damage. Rivain will test for this and replace the impacted drive unit under warranty if needed.
+
+[RCA-38-23-003-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240312-0001.pdf)
+
+## Insufficient Hood Adhesive
+
+Early 2022 Rivian R1T can suffer from fluttering of the front hood at highway speeds.
+
+[RCA-56-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10207696-0001.pdf)
+
 
 # Consumables
 
