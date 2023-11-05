@@ -5,6 +5,8 @@ Here I'll document the things not in the user manual until Rivian makes a Servic
 
 **If you use or enjoy this, please consider donating some cash via [ko-fi](https://ko-fi.com/kallisti5)!**
 
+Best viewed here: https://github.com/kallisti5/rivian-service-guide/blob/main/README.md
+
 # Repair
 
 ## Service Menu
