@@ -3,6 +3,8 @@
 Welcome to the unofficial Rivian Service Guide!
 Here I'll document the things not in the user manual until Rivian makes a Service Manual available.
 
+**If you use or enjoy this, please consider donating some cash via [ko-fi](https://ko-fi.com/kallisti5)!**
+
 # Repair
 
 ## Service Menu
@@ -143,26 +145,30 @@ the final solution is released.
 
 [RSB-60-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228730-0001.pdf) -- Disable
 
-## Half-shaft Issues
+## Customer Satisfaction Campaigns
 
-On 2022 Rivian R1T / R1S vehicles, the bolts of the half-shafts can back out resulting in a "tinging" noise while driving at low speeds.  Eventually the center cap of the wheel can "pop off" resulting in the loss of the bolt.
+> TODO: Cover before DEC 2 2022
 
-This is purely a cosmetic (sound) issue, and is reported to not cause any damage to the vehicle.
-
-[RCA-38-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235544-0001.pdf) -- Excessive Clearance
-[RCA-38-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235543-0001.pdf) -- Inadequate Half-shaft Spline Interface
-
-## Fluid Loss in front or rear drive motor units
-
-Early 2022 Rivian R1T can suffer a slow loss of fluids resulting in drive unit damage. Rivain will test for this and replace the impacted drive unit under warranty if needed.
-
-[RCA-38-23-003-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240312-0001.pdf)
-
-## Insufficient Hood Adhesive
-
-Early 2022 Rivian R1T can suffer from fluttering of the front hood at highway speeds.
-
-[RCA-56-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10207696-0001.pdf)
+|Model     |Mfg Date         | ID                                                                            | Thing               | Notes                                                        |
+|----------|:----------------|:------------------------------------------------------------------------------|:--------------------|:-------------------------------------------------------------|
+| R1T      | Aug 21 - May 22 |[RCA-56-22-011-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228721-0001.pdf) | Closures            | Replace bed storage compartment seal. Cold weather stick     |
+| R1T      | Aug 21 - Nov 22 |[RCA-64-22-006-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228723-0001.pdf) | Interior            | Upper C-Pillar trim panel adjustment                         |
+| R1T, R1S | Aug 21 - Aug 22 |[RCA-78-22-015-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228727-0001.pdf) | Low voltage elec.   | Firmware fix, automatic seat and steering wheel adjust.      |
+| R1T      | Aug 21 - Jan 22 |[RCA-56-22-008-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228719-0001.pdf) | Closures            | Exterior door handle levers, water intrusion                 |
+| R1T      | Aug 21 - Feb 22 |[RSB-64-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10243561-0001.pdf) | Interior            | Tailgate trim panel, update with rubber to protect cargo     |
+| R1T      | Dec 21 - Feb 22 |[RCA-30-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228717-0001.pdf) | HV Battery          | Apply sealant to HV battery, prevent rare moisture intrusion |
+| R1T, R1S | Mar 22 - Sep 22 |[RSB-56-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10232188-0001.pdf) | Closures            | Front door, fixed glass molding separation                   |
+| R1T      | Aug 21 - Sep 21 |[RCA-86-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10241958-0001.pdf) | Driver Assistance   | Update firmware for dash, unable to receive HD map info      |
+| R1T, R1S | Aug 21 - May 22 |[RCA-96-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10241957-0001.pdf) | Supplemental        | Tire sealant kit leaking                                     |
+| R1T      | Aug 21 - Oct 21 |[RCA-56-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10207696-0001.pdf) | Body                | Hood flutter at speed, insufficient adhesive                 |
+| R1T, R1S | Aug 21 - Feb 22 |[RCA-38-23-003-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240312-0001.pdf) | Front drive unit    | Fluid leak, test for drive unit damage                       |
+| R1T, R1S | Aug 21 - May 22 |[RCA-38-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235543-0001.pdf) | Front drive unit    | Halfshaft bolts backing out                                  |
+| R1T      | Oct 21 - Dec 21 |[RCA-78-23-004-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235546-0001.pdf) | Low voltage elec.   | Replace door mid-woofer speakers, corrosion                  |
+| R1T      | Oct 21 - Jun 22 |[RCA-30-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10232189-0001.pdf) | HV Battery          | Update BMS firmware, broken OTA updates                      |
+| R1T, R1S | May 22 - Nov 22 |[RCA-38-23-002-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240310-0001.pdf) | Front drive unit    | Halfshaft washers to prevent bolts from backing out          |
+| R1T, R1S | Aug 21 - Apr 23 |[RSB-10-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10238719-0001.pdf) | Steering            | Steering wheel vibration                                     |
+| R1T, R1S | Jan 22 - Mar 23 |[RCA-10-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235683-0001.pdf) | Steering            | Steering wheel misalignment                                  |
+| R1T, R1S | Dec 22 - Mar 23 |[RCA-34-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10237165-0001.pdf) | High voltage dist.  | Unable to AC charge, faulty component                        |
 
 
 # Consumables
