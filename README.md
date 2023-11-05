@@ -170,6 +170,13 @@ Early 2022 Rivian R1T can suffer from fluttering of the front hood at highway sp
 * Windshield Wiper Blades
   * Front Right: 18"
   * Front Left: 24"
+* Cabin Air Filter
+  * OEM: MANN FP 23 024   210mm x 227mm x 30mm
+  * Notes: Hard to find
+  * Compatible: 2008 Dodge Grand Caravan
+    * Part Number: CF10743
+    * 10mm too short in one direction, but "close enough"
+    * 199mm x 228mm x 30mm
 
 # Legal
 
