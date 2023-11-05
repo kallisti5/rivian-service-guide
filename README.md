@@ -149,26 +149,26 @@ the final solution is released.
 
 > TODO: Cover before DEC 2 2022
 
-|Model       |Mfg Date           | ID                                                                            | Thing               | Notes                                                        |
-|------------|:------------------|:------------------------------------------------------------------------------|:--------------------|:-------------------------------------------------------------|
-| R1T        | Aug 21 - May 22   |[RCA-56-22-011-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228721-0001.pdf) | Closures            | Replace bed storage compartment seal. Cold weather stick     |
-| R1T        | Aug 21 - Nov 22   |[RCA-64-22-006-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228723-0001.pdf) | Interior            | Upper C-Pillar trim panel adjustment                         |
-| R1T, R1S   | Aug 21 - Aug 22   |[RCA-78-22-015-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228727-0001.pdf) | Low voltage elec.   | Firmware fix, automatic seat and steering wheel adjust.      |
-| R1T        | Aug 21 - Jan 22   |[RCA-56-22-008-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228719-0001.pdf) | Closures            | Exterior door handle levers, water intrusion                 |
-| R1T        | Aug 21 - Feb 22   |[RSB-64-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10243561-0001.pdf) | Interior            | Tailgate trim panel, update with rubber to protect cargo     |
-| R1T        | Dec 21 - Feb 22   |[RCA-30-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228717-0001.pdf) | HV Battery          | Apply sealant to HV battery, prevent rare moisture intrusion |
-| R1T, R1S   | Mar 22 - Sep 22   |[RSB-56-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10232188-0001.pdf) | Closures            | Front door, fixed glass molding separation                   |
-| R1T        | Aug 21 - Sep 21   |[RCA-86-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10241958-0001.pdf) | Driver Assistance   | Update firmware for dash, unable to receive HD map info      |
-| R1T, R1S   | Aug 21 - May 22   |[RCA-96-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10241957-0001.pdf) | Supplemental        | Tire sealant kit leaking                                     |
-| R1T        | Aug 21 - Oct 21   |[RCA-56-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10207696-0001.pdf) | Body                | Hood flutter at speed, insufficient adhesive                 |
-| R1T, R1S   | Aug 21 - Feb 22   |[RCA-38-23-003-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240312-0001.pdf) | Front drive unit    | Fluid leak, test for drive unit damage                       |
-| R1T, R1S   | Aug 21 - May 22   |[RCA-38-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235543-0001.pdf) | Front drive unit    | Halfshaft bolts backing out                                  |
-| R1T        | Oct 21 - Dec 21   |[RCA-78-23-004-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235546-0001.pdf) | Low voltage elec.   | Replace door mid-woofer speakers, corrosion                  |
-| R1T        | Oct 21 - Jun 22   |[RCA-30-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10232189-0001.pdf) | HV Battery          | Update BMS firmware, broken OTA updates                      |
-| R1T, R1S   | May 22 - Nov 22   |[RCA-38-23-002-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240310-0001.pdf) | Front drive unit    | Halfshaft washers to prevent bolts from backing out          |
-| R1T, R1S   | Aug 21 - Apr 23   |[RSB-10-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10238719-0001.pdf) | Steering            | Steering wheel vibration                                     |
-| R1T, R1S   | Jan 22 - Mar 23   |[RCA-10-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235683-0001.pdf) | Steering            | Steering wheel misalignment                                  |
-| R1T, R1S   | Dec 22 - Mar 23   |[RCA-34-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10237165-0001.pdf) | High voltage dist.  | Unable to AC charge, faulty component                        |
+|Model     |Mfg Date           | ID                                                                            | Thing               | Notes                                                      |
+|----------|:------------------|:------------------------------------------------------------------------------|:--------------------|:-----------------------------------------------------------|
+| R1T      | Aug 21 - May 22   |[RCA-56-22-011-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228721-0001.pdf) | Closures            | Bed storage compartment seal. Cold weather stick           |
+| R1T      | Aug 21 - Nov 22   |[RCA-64-22-006-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228723-0001.pdf) | Interior            | Upper C-Pillar trim panel adjustment                       |
+| R1T,R1S  | Aug 21 - Aug 22   |[RCA-78-22-015-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228727-0001.pdf) | Low voltage elec.   | Firmware fix, automatic seat and steering wheel adjust.    |
+| R1T      | Aug 21 - Jan 22   |[RCA-56-22-008-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228719-0001.pdf) | Closures            | Exterior door handle levers, water intrusion               |
+| R1T      | Aug 21 - Feb 22   |[RSB-64-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10243561-0001.pdf) | Interior            | Tailgate trim panel, update with rubber                    |
+| R1T      | Dec 21 - Feb 22   |[RCA-30-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228717-0001.pdf) | HV Battery          | Apply sealant to HV battery                                |
+| R1T,R1S  | Mar 22 - Sep 22   |[RSB-56-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10232188-0001.pdf) | Closures            | Front door, fixed glass molding separation                 |
+| R1T      | Aug 21 - Sep 21   |[RCA-86-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10241958-0001.pdf) | Driver Assistance   | Update firmware for dash, unable to receive HD map info    |
+| R1T,R1S  | Aug 21 - May 22   |[RCA-96-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10241957-0001.pdf) | Supplemental        | Tire sealant kit leaking                                   |
+| R1T      | Aug 21 - Oct 21   |[RCA-56-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10207696-0001.pdf) | Body                | Hood flutter at speed, insufficient adhesive               |
+| R1T,R1S  | Aug 21 - Feb 22   |[RCA-38-23-003-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240312-0001.pdf) | Front drive unit    | Fluid leak, test for drive unit damage                     |
+| R1T,R1S  | Aug 21 - May 22   |[RCA-38-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235543-0001.pdf) | Front drive unit    | Halfshaft bolts backing out                                |
+| R1T      | Oct 21 - Dec 21   |[RCA-78-23-004-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235546-0001.pdf) | Low voltage elec.   | Replace door mid-woofer speakers, corrosion                |
+| R1T      | Oct 21 - Jun 22   |[RCA-30-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10232189-0001.pdf) | HV Battery          | Update BMS firmware, broken OTA updates                    |
+| R1T,R1S  | May 22 - Nov 22   |[RCA-38-23-002-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240310-0001.pdf) | Front drive unit    | Halfshaft washers to prevent bolts from backing out        |
+| R1T,R1S  | Aug 21 - Apr 23   |[RSB-10-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10238719-0001.pdf) | Steering            | Steering wheel vibration                                   |
+| R1T,R1S  | Jan 22 - Mar 23   |[RCA-10-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235683-0001.pdf) | Steering            | Steering wheel misalignment                                |
+| R1T,R1S  | Dec 22 - Mar 23   |[RCA-34-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10237165-0001.pdf) | High voltage dist.  | Unable to AC charge, faulty component                      |
 
 
 # Consumables
