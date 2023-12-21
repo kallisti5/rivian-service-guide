@@ -193,7 +193,7 @@ the final solution is released.
   * Front Left: 24"
 * Cabin Air Filter
   * OEM: MANN FP 23 024   210mm x 227mm x 30mm
-  * Notes: Hard to find
+  * Notes: Available in the [Gear Shop](https://rivian.com/gear-shop/p/cabin-air-filter).
   * Compatible: 2008 Dodge Grand Caravan
     * Part Number: CF10743
     * 10mm too short in one direction, but "close enough"
