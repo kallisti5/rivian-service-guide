@@ -37,7 +37,7 @@ service-related actions such as re-calibrations of motor limits.
   * Earlier 4 digit versions were "7433"  (Ride)
   * Later 5 digit versions are "33748"
 
-These service pin numbers were located by a long chain of random internet strangers.
+These service pin numbers were disclosed by long chain of random internet strangers.
 There's no direct connection to this repository, and where they came from.
 
 Rivian has the ability to change these service pin numbers at any time via OTA updates.
@@ -56,7 +56,6 @@ My system spamming DHCP client requests off into the ether of the Rivian saw zer
 
 Thoughts:
   * The standard 510 Ohm resistor in the BMW adapters isn't the correct value to give access to DoIP.
-  * You have to activate something in the (no longer accessible) RiDE diagnostic screen to activate DoIP.
   * You have to provide a certificate to some silent network endpoint to authenticate for access.
 
 Someone sniffing the communications from the Rivian diagnostic equipment to the Rivian with Wireshark
@@ -64,6 +63,16 @@ and an ethernet hub would be infinitely useful here... however given the limited
 hardware, this is a big lift.
 
 Right-to-repair laws however may improve access to such hardware.
+
+## Diagnostic Software
+
+Rivian runs a proprietary diagnostic server to service vehicle systems.
+
+* Rivian technicians leverage Windows-based laptops
+* Rivian technicians connect to their service vehicle's or service center's wifi network
+* Rivian technicians connect to a corporate Rivian Palo Alto VPN
+* Techs access a web-based diagnostic software system on an internal (goriv.co / gorivn.co) domain
+* The web-based diagnostic software communicates to the vehicle over their ODB2 service adapter
 
 ## Resets
 
