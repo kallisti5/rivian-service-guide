@@ -30,9 +30,10 @@ service-related actions such as re-calibrations of motor limits.
 
 **Process:**
 
+* Enter service mode via Settings -> Service -> Service Mode
 * Tap on the top black bar five times.
 * Bring up the bottom menu.
-* Tap the new "R (RiDE)" icon.
+* Tap the new "R (Ride)" icon.
 * A quote will show up on screen.
   * Earlier 4 digit versions were "7433"  (Ride)
   * Later 5 digit versions are "33748"
