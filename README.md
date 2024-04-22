@@ -148,6 +148,16 @@ has confirmed this only takes 10-15 minutes of driving. No tool needed.
 
 # Known Problems
 
+## Payment error during DCFC
+
+Payment error -- Update payment method in the Rivian app.
+
+If you already have a payment method in the Rivian app... try the following:
+
+* Add an additional / alternative payment method
+* Do a soft reset
+* Do a hard reset
+
 ## Automatic Tonneau Cover
 
 The automatic Tonneau cover sold on early vehicles *will* jam and fail with dirt + age.
