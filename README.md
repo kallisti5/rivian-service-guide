@@ -218,6 +218,11 @@ the final solution is released.
     * Part Number: CF10743
     * 10mm too short in one direction, but "close enough"
     * 199mm x 228mm x 30mm
+* 12V Pyro Fuse/Actuator
+  * Part: PSS-3 0080-P1-100017
+  * Notes: There are other variants of the same fuse with different prefixes (PSS-1, PSS-2, PSS-4 etc.). What distinguises PSS-3 from the others, is the added port on the top of the actuator.
+  * Other Part #'s: B2302641744, B2203931056
+  * Location: Driver's side, underneath the dashboard.
 
 # Legal
 
