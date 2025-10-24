@@ -9,6 +9,26 @@ Best viewed here: https://github.com/kallisti5/rivian-service-guide/blob/main/RE
 
 # Repair
 
+## Service Manual
+
+Rivian offers their Service Manual to 3rd party shops for a standard shop fee.
+
+**Unfortunately Rivian does *NOT* offer DIY / consumer oriented Service Manuals
+or Diagnostic tooling which likely may violate several US states "Right to Repair" laws.**
+
+### Rivian Annual Subscription Rates per User:
+
+  * SUBSB2B201 - Part Catalog for Parts Purchase - NO CHARGE
+  * SUBSB2B202 - Part Catalog + Service Manual + Online Training  = $2,500/year
+  * SUBSB2B203 - Part Catalog + Service Manual + Online Training + Rivian Diagnostic Tools (RiDE) = $5,500/year
+  * SUBSB2B301 - Online Training Only = $500/year
+
+These can be subscribed to via a single-use Shopify link (lol) and password by contacting
+aftersalessupport@rivian.com directly for access.
+
+The shopify store is at https://rivian-service-subscription.myshopify.com, however you will
+need the one-time link to login.
+
 ## Service Menu
 
 This section exists because consumers deserve the right to service their own vehicles.
@@ -218,6 +238,22 @@ the final solution is released.
     * Part Number: CF10743
     * 10mm too short in one direction, but "close enough"
     * 199mm x 228mm x 30mm
+* Low voltage 12v Battery
+  * Rivian replacement cost out of warranty ~$750
+    * DCS-18UNC [OEM Battery Spec](https://assets.ctfassets.net/3inf9wk05c1h/1KpotH3D3xJFZwKsSkWHO1/b5a637cc781869eda8d0444850f1fad3/EVP_DCS_DataSheet_08312022.pdf)
+    * Average life: 3-5 years
+  * DIY: Bone stock 12v, 18Ah battery. Internal thread on top. BT19BL-BS group
+    * 12v, 18Ah.  Internal thread on top.  BT19BL-BS group
+    * AGM / Deep Cycle
+    * Negative on left, positive on right with terminals closest to you.
+    * Requires a [post relocator](https://soonishev.com/products/battery-post-relocator) however as Rivian's terminals are non-standard
+  * If you're going to upgrade to LifePo4, do *NOT* install
+    un-heated LifePo4 batteries.  Charging LifePo4 in freezing
+    conditions will damage them.
+  * Pre-2023 have two of these batteries.  Post-2023 have one.
+    * If you have two, replace one at a time.
+    * Keep the vehicle plugged into level 2 charging while replacing
+  * The RiDE service menu is [supposed](https://x.com/WassymBensaid/status/1976485621100314949) to get a 12v replacement code clear button.
 
 # Legal
 
