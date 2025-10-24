@@ -13,8 +13,14 @@ Best viewed here: https://github.com/kallisti5/rivian-service-guide/blob/main/RE
 
 Rivian offers their Service Manual to 3rd party shops for a standard shop fee.
 
-**Unfortunately Rivian does *NOT* offer DIY / consumer oriented Service Manuals
-or Diagnostic tooling which likely may violate several US states "Right to Repair" laws.**
+**Unfortunately Rivian does *NOT* offer DIY / consumer-focused Service Manuals
+or Diagnostic tooling (which even GM provides) which likely may violate several
+US states "Right to Repair" laws.**
+
+> Using Texas as an example, HB 2963 requires:
+>
+> "manufacturers provide spare parts, manuals, and required tools for products sold or
+> used in Texas", effective Sept, 1, 2026
 
 ### Rivian Annual Subscription Rates per User:
 
