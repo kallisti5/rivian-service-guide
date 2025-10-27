@@ -1,5 +1,7 @@
 # Replacing the 12V Low Voltage battery
 
+Status: ![wip](../../status_wip.png)
+
 ## Applies
 
   * 2022-2026 Rivian R1T / Rivian R1S
@@ -9,6 +11,7 @@
 ![Replace 12V Battery](warning-12v.jpg)
 
   * "Replace 12V Battery" on driver display
+  * Unresponsive vehicle refusing to unlock? See [12V emergency power](emergency-jump.md)
 
 ## Cause
 
@@ -17,7 +20,7 @@
 ## Parts
 
 > Early R1 vehicles (Built 3/23 and before) require two batteries. Later builds
-> use a capacitor on the passenger-side which does not need replaced.
+> use a capacitor on the passenger-side, and a single battery.
 
   * Replacement Battery
     * **OEM:** DCS-18UNC
@@ -36,4 +39,3 @@
   1. Open the front trunk, remove the plastic cover at the top of the space by lifting each edge to unsnap it.
   2. Locate the batteries at the center of the space
   3. Remove the ground nut
-  4. 
