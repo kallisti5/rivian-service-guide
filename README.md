@@ -224,6 +224,7 @@ the final solution is released.
 ## Low Voltage Subsystems
 
   * [12V Battery Replacement](guides/low-voltage/12v-replacement.md)
+  * [12V Pyrofuse Replacement](guides/low-voltage/12v-pyrofuse.md)
   * [Emergency Jump](guides/low-voltage/emergency-jump.md)
 
 # Legal
