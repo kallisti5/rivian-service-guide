@@ -1,5 +1,7 @@
 # Emergency power for dead 12V battery
 
+![complete](../../status_complete.png)
+
 ## Applies
 
   * 2022-2026 Rivian R1T / Rivian R1S

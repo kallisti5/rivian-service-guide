@@ -1,6 +1,6 @@
 # Replacing the 12V Low Voltage battery
 
-Status: ![wip](../../status_wip.png)
+![wip](../../status_wip.png)
 
 ## Applies
 
@@ -39,3 +39,5 @@ Status: ![wip](../../status_wip.png)
   1. Open the front trunk, remove the plastic cover at the top of the space by lifting each edge to unsnap it.
   2. Locate the batteries at the center of the space
   3. Remove the ground nut
+  .
+  .
