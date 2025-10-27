@@ -26,6 +26,11 @@
   * TODO
   * [Plastic clip remover (optional)](https://amzn.to/3L8OWAW)
 
+## Location
+
+![Pyrofuse](12v-pyrofuse-1.jpg)
+![Pyrofuse](12v-pyrofuse-2.jpg)
+
 ## Procedure
 
   * Under the dash, drivers side
