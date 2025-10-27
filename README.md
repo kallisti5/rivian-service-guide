@@ -253,13 +253,17 @@ the final solution is released.
     * AGM / Deep Cycle
     * Negative on left, positive on right with terminals closest to you.
     * Requires a [post relocator](https://soonishev.com/products/battery-post-relocator) however as Rivian's terminals are non-standard
-  * If you're going to upgrade to LifePo4, do *NOT* install
-    un-heated LifePo4 batteries.  Charging LifePo4 in freezing
-    conditions will damage them.
   * Pre-2023 have two of these batteries.  Post-2023 have one.
     * If you have two, replace one at a time.
     * Keep the vehicle plugged into level 2 charging while replacing
   * The RiDE service menu is [supposed](https://x.com/WassymBensaid/status/1976485621100314949) to get a 12v replacement code clear button.
+
+# Guides
+
+## Low Voltage Subsystems
+
+  * [12V Battery Replacement](guides/low-voltage/12v-replacement.md)
+  * [Emergency Jump](guides/low-voltage/emergency-jump.md)
 
 # Legal
 

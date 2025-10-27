@@ -23,9 +23,11 @@
 > use a capacitor on the passenger-side, and a single battery.
 
   * Replacement Battery
-    * **OEM:** DCS-18UNC
-    * **Third Party:** [OHMMU BT19](https://www.ohmmu.com/product-page/12v-lithium-battery-for-r1t-r1s)
     * **Universal Third Party:** [Any 12v, 18Ah, BT19BL-BS group, internal top thread battery](https://amzn.to/48L0295) + [Reusable Post Relocator](https://soonishev.com/products/battery-post-relocator) (Recommended)
+    * **Drop-in Third Party:** [OHMMU BT19](https://www.ohmmu.com/product-page/12v-lithium-battery-for-r1t-r1s)
+    * **OEM:** DCS-18UNC
+
+> Note: If you choose to replace the Lead Acid, 12V AGM battery with a LifePo4 battery, take note that charging a LifePo4 battery in freezing conditions **WILL** damage it.  Only use **heated** LifePo4 batteries such as the Ohmmu.
 
 ## Tools
 
