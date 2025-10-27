@@ -28,8 +28,10 @@
 
 ## Procedure
 
+  ![hitch cover off](12v-emergency-1.jpg)
   1. Remove the hitch cover from the back of the vehicle and locate the round plastic plate on the passenger side.
   2. Gently insert a screwdriver to pop out the plate, and locate the two wires
+  ![wires exposed](12v-emergency-2.jpg)
   3. Remove any tape from the ends of the wires, match red to positive, black to negative
   4. Power up vehicle
 
