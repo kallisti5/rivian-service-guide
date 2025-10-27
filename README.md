@@ -29,7 +29,7 @@ US states "Right to Repair" laws.**
   * SUBSB2B203 - Part Catalog + Service Manual + Online Training + Rivian Diagnostic Tools (RiDE) = $5,500/year
   * SUBSB2B301 - Online Training Only = $500/year
 
-These can be subscribed to via a single-use Shopify link (lol) and password by contacting
+These can be subscribed to via a single-use Shopify link and password by contacting
 aftersalessupport@rivian.com directly for access.
 
 The shopify store is at https://rivian-service-subscription.myshopify.com, however you will
@@ -206,32 +206,6 @@ the final solution is released.
 
 [RSB-60-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228730-0001.pdf) -- Disable
 
-## Customer Satisfaction Campaigns
-
-> TODO: Cover before DEC 2 2022
-
-|Model     |Mfg Date           | ID                                                                            | Thing               | Notes                                                      |
-|----------|:------------------|:------------------------------------------------------------------------------|:--------------------|:-----------------------------------------------------------|
-| R1T      | Aug 21 - May 22   |[RCA-56-22-011-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228721-0001.pdf) | Closures            | Bed storage compartment seal. Cold weather stick           |
-| R1T      | Aug 21 - Nov 22   |[RCA-64-22-006-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228723-0001.pdf) | Interior            | Upper C-Pillar trim panel adjustment                       |
-| R1T,R1S  | Aug 21 - Aug 22   |[RCA-78-22-015-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228727-0001.pdf) | Low voltage elec.   | Firmware fix, automatic seat and steering wheel adjust.    |
-| R1T      | Aug 21 - Jan 22   |[RCA-56-22-008-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228719-0001.pdf) | Closures            | Exterior door handle levers, water intrusion               |
-| R1T      | Aug 21 - Feb 22   |[RSB-64-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10243561-0001.pdf) | Interior            | Tailgate trim panel, update with rubber                    |
-| R1T      | Dec 21 - Feb 22   |[RCA-30-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228717-0001.pdf) | HV Battery          | Apply sealant to HV battery                                |
-| R1T,R1S  | Mar 22 - Sep 22   |[RSB-56-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10232188-0001.pdf) | Closures            | Front door, fixed glass molding separation                 |
-| R1T      | Aug 21 - Sep 21   |[RCA-86-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10241958-0001.pdf) | Driver Assistance   | Update firmware for dash, unable to receive HD map info    |
-| R1T,R1S  | Aug 21 - May 22   |[RCA-96-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10241957-0001.pdf) | Supplemental        | Tire sealant kit leaking                                   |
-| R1T      | Aug 21 - Oct 21   |[RCA-56-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10207696-0001.pdf) | Body                | Hood flutter at speed, insufficient adhesive               |
-| R1T,R1S  | Aug 21 - Feb 22   |[RCA-38-23-003-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240312-0001.pdf) | Front drive unit    | Fluid leak, test for drive unit damage                     |
-| R1T,R1S  | Aug 21 - May 22   |[RCA-38-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235543-0001.pdf) | Front drive unit    | Halfshaft bolts backing out                                |
-| R1T      | Oct 21 - Dec 21   |[RCA-78-23-004-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235546-0001.pdf) | Low voltage elec.   | Replace door mid-woofer speakers, corrosion                |
-| R1T      | Oct 21 - Jun 22   |[RCA-30-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10232189-0001.pdf) | HV Battery          | Update BMS firmware, broken OTA updates                    |
-| R1T,R1S  | May 22 - Nov 22   |[RCA-38-23-002-2](https://static.nhtsa.gov/odi/tsbs/2023/MC-10240310-0001.pdf) | Front drive unit    | Halfshaft washers to prevent bolts from backing out        |
-| R1T,R1S  | Aug 21 - Apr 23   |[RSB-10-23-001-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10238719-0001.pdf) | Steering            | Steering wheel vibration                                   |
-| R1T,R1S  | Jan 22 - Mar 23   |[RCA-10-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10235683-0001.pdf) | Steering            | Steering wheel misalignment                                |
-| R1T,R1S  | Dec 22 - Mar 23   |[RCA-34-23-002-1](https://static.nhtsa.gov/odi/tsbs/2023/MC-10237165-0001.pdf) | High voltage dist.  | Unable to AC charge, faulty component                      |
-
-
 # Consumables
 
 * Windshield Wiper Blades
@@ -244,19 +218,6 @@ the final solution is released.
     * Part Number: CF10743
     * 10mm too short in one direction, but "close enough"
     * 199mm x 228mm x 30mm
-* Low voltage 12v Battery
-  * Rivian replacement cost out of warranty ~$750
-    * DCS-18UNC [OEM Battery Spec](https://assets.ctfassets.net/3inf9wk05c1h/1KpotH3D3xJFZwKsSkWHO1/b5a637cc781869eda8d0444850f1fad3/EVP_DCS_DataSheet_08312022.pdf)
-    * Average life: 3-5 years
-  * DIY: Bone stock 12v, 18Ah battery. Internal thread on top. BT19BL-BS group
-    * 12v, 18Ah.  Internal thread on top.  BT19BL-BS group
-    * AGM / Deep Cycle
-    * Negative on left, positive on right with terminals closest to you.
-    * Requires a [post relocator](https://soonishev.com/products/battery-post-relocator) however as Rivian's terminals are non-standard
-  * Pre-2023 have two of these batteries.  Post-2023 have one.
-    * If you have two, replace one at a time.
-    * Keep the vehicle plugged into level 2 charging while replacing
-  * The RiDE service menu is [supposed](https://x.com/WassymBensaid/status/1976485621100314949) to get a 12v replacement code clear button.
 
 # Guides
 
