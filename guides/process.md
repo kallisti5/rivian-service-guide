@@ -15,3 +15,12 @@ Today it isn't generally possible by end users.
 
 Currently, costs for a mobile Rivian Service Technician to show up for a non-warranty covered
 trip are a steep $700+.  Talk to customer service and make sure your work is covered by warranty.
+
+## Payment error during DCFC
+
+Payment error -- Update payment method in the Rivian app.
+If you already have a payment method in the Rivian app... try the following:
+
+* Check your billing address
+* Add an additional / alternative payment method
+* Do a hard reset

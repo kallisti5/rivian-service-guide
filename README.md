@@ -47,9 +47,7 @@ Things you may be quickly searching for :-)
   * Random ODB2 adapters will likely not work.
   * Communicates over DoIP
 
-# Repair
-
-## Official Service Manual
+# Official Service Manual and Tools
 
 Rivian offers their official service manual and tools to 3rd party shops for a standard shop fee.
 
@@ -64,7 +62,7 @@ states "Right to Repair" laws.**
 
 [Support right-to-repair today](https://www.nytimes.com/wirecutter/blog/what-is-right-to-repair/)
 
-### Rivian Annual Subscription Rates per User:
+## Rivian Annual Subscription Rates per User:
 
   * SUBSB2B201 - Part Catalog for Parts Purchase - NO CHARGE
   * SUBSB2B202 - Part Catalog + Service Manual + Online Training  = $2,500/year
@@ -79,55 +77,37 @@ need the one-time link to login.
 
 ## ODB2 Port
 
-Now the meaty bits.   The ODB2 port on the Rivian R1T seems to not offer standard CAN communications
+The ODB2 port on the Rivian R1T seems to not offer standard CAN communications
 (as CAN is no longer required for electric vehicles).
 
 The Rivian ODB2 port does however offer a standard DoIP interface (used by the likes of BMW, etc)
 
-I've attached to this DoIP interface, gotten an ethernet link, and sniffed activity with Wireshark
-(which should be DoIP aware).
-
-My system spamming DHCP client requests off into the ether of the Rivian saw zero traffic returned.
+You can attach to this DoIP interfance, and get an ethernet link.
+Sniffing activity with Wireshark (which should be DoIP aware) shows no activity or communication.
 
 Thoughts:
   * The standard 510 Ohm resistor in the BMW adapters isn't the correct value to give access to DoIP.
   * You have to provide a certificate to some silent network endpoint to authenticate for access.
 
-Someone sniffing the communications from the Rivian diagnostic equipment to the Rivian with Wireshark
-and an ethernet hub would be infinitely useful here... however given the limited access to such diagnostic
-hardware, this is a big lift.
+## Diagnostic Software (Full Service Center RiDE)
 
-Right-to-repair laws however may improve access to such hardware.
+Rivian runs a proprietary diagnostic server to service vehicle systems. (RiDE)
 
-## Diagnostic Software
+  * Rivian technicians leverage Windows-based laptops
+  * Rivian technicians connect to their service vehicle's or service center's wifi network
+  * Rivian technicians connect to a corporate Rivian Palo Alto VPN
+  * Techs access a web-based diagnostic software system on an internal goriv.co domain
+  * The web-based diagnostic software communicates to the vehicle over their ODB2 service adapter
 
-Rivian runs a proprietary diagnostic server to service vehicle systems.
-
-* Rivian technicians leverage Windows-based laptops
-* Rivian technicians connect to their service vehicle's or service center's wifi network
-* Rivian technicians connect to a corporate Rivian Palo Alto VPN
-* Techs access a web-based diagnostic software system on an internal (goriv.co / gorivn.co) domain
-* The web-based diagnostic software communicates to the vehicle over their ODB2 service adapter
-
-
-# Known Problems
-
-## Payment error during DCFC
-
-Payment error -- Update payment method in the Rivian app.
-
-If you already have a payment method in the Rivian app... try the following:
-
-* Add an additional / alternative payment method
-* Do a soft reset
-* Do a hard reset
+Rivian has extremely detailed historical logs / graphs about the state of every subsystem in your vehicle
+down to control pins being high or low.
 
 # Guides
 
 ## General
 
- * [Process Information](guides/process.md)
- * [General Maintenance](guides/maintenance.md)
+  * [Process Information](guides/process.md)
+  * [General Maintenance](guides/maintenance.md)
   
 ## Low Voltage Subsystems
 
