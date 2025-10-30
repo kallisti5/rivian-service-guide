@@ -47,8 +47,8 @@
   1. Open the front trunk, remove the plastic cover at the top of the space by lifting each edge to unsnap it.
   2. Locate the batteries at the center of the space (just behind the frunk compartment wall)
   3. If in question, determine if you have a single or dual battery design by examining the passenger side.
-    1. If the passenger side terminal is black, you have an older build with two batteries. Follow "Passenger Side Battery" and "Drivers Side Battery" below.
-    2. if the passenger side terminal is red, you have a later build with a non-replaceable capacitor on the passenger side. Jump to "Drivers Side Battery" below.
+     1. If the passenger side terminal is black, you have an older build with two batteries. Follow **Passenger Side Battery** and **Drivers Side Battery** below.
+     2. if the passenger side terminal is red, you have a later build with a non-replaceable capacitor on the passenger side. Jump to **Drivers Side Battery** below.
 
 ### Passenger Side Battery (Dual Battery)
 
