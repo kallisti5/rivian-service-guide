@@ -2,6 +2,8 @@
 
 ![wip](../../status_wip.png)
 
+**Difficulty:** 2/5
+
 ## Applies
 
   * 2022-2026 Rivian R1T / Rivian R1S
@@ -38,8 +40,28 @@
 
 ## Procedure
 
+### Validate Number of 12V Batteries
+
+> TODO photo
+
   1. Open the front trunk, remove the plastic cover at the top of the space by lifting each edge to unsnap it.
-  2. Locate the batteries at the center of the space
-  3. Remove the ground nut
+  2. Locate the batteries at the center of the space (just behind the frunk compartment wall)
+  3. If in question, determine if you have a single or dual battery design by examining the passenger side.
+    1. If the passenger side terminal is black, you have an older build with two batteries. Follow "Passenger Side Battery" and "Drivers Side Battery" below.
+    2. if the passenger side terminal is red, you have a later build with a non-replaceable capacitor on the passenger side. Jump to "Drivers Side Battery" below.
+
+### Passenger Side Battery (Dual Battery)
+
+> TODO photos
+> TODO steps
+
+### Drivers Side Battery
+
+> TODO photos
+> TODO steps
+
+  1. On the battery on the driver side, remove the black terminal's ground nut. 
+  2. Remove the positive nut, being careful to not contact any other metal surfaces, wrap the connector in a thin layer of electrical tape.
+  3. Remove the battery
   .
   .
