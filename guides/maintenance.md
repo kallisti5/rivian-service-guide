@@ -36,15 +36,15 @@ These steps apply to the original Tonneau cover, as well as the redesigned model
 ### Process
 
 * Clean off any grime or debris with Tonneau closed.
-* Spray dry-lube in-between each panel section with the straw nozzle.
+* Lightly spray dry-lube in-between each panel section with the straw nozzle.
 * Open the Tonneau.
 * Spray the tracks on either side using the straw nozzle.
 * Spray around the front edge of the Tonneau track on either side.
-* Wipe off excess. Close the Tonneau.
-* Repeat every month or two to buy yourself time.
+* Wipe off excess. Close the Tonneau. Wipe off excess.
+* Repeat twice a year, or as needed.
 
-If your Tonneau jams, contact Rivian service. They'll open it fully and lock it out until
-the final solution is released.
+If your original Tonneau jams, contact Rivian service. They'll open it fully and lock it out until
+the it can be replaced under warranty.
 
 [RSB-60-22-001-1](https://static.nhtsa.gov/odi/tsbs/2022/MC-10228730-0001.pdf) -- Disable
 
