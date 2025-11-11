@@ -77,7 +77,8 @@
 
   1. Open the front trunk, remove the plastic cover at the top of the space by lifting each edge to unsnap it.
   2. Locate the batteries at the center of the space (just behind the frunk compartment wall)
-  3. If in question, determine if you have a single or dual battery design by examining the passenger side.
+  3. Slide the center air duct up and set it to the side.
+  4. If in question, determine if you have a single or dual battery design by examining the passenger side.
      1. If the passenger side terminal is black, you have an older build with two batteries. Follow **Passenger Side Battery** and **Drivers Side Battery** below.
      2. if the passenger side terminal is red, you have a later build with a non-replaceable capacitor on the passenger side. Jump to **Drivers Side Battery** below.
 
@@ -86,6 +87,7 @@
   1. Ensure the vehicle is on stable, level ground.
   2. Ensure doors are unlocked, and the frunk is open.
   3. Place the vehicle into service mode.
+  4. Remove the plastic cover at the top of the frunk by lifting it up.
   4. Locate the red high voltage disconnect cable in the top right portion of the frunk.  Release the clip and pull the loop connector.
   5. Using a flat-head screwdriver, carefully remove the plastic red covers from the top of the battery terminals.
   6. Take a clear photo of your batteries, notating where all wires go.
@@ -135,4 +137,4 @@
 
   1. Once the batteries are in the vehicle, enter the cabin and perform a hard reset. (hold the left-most steering wheel button and the emergency blinker button)
   2. Once the vehicle recovers, go into RiDE and perform a 12v low-voltage reset.
-
+     1. As of today, this doesn't seem to do anything.  A service center might be able to reset it remotely.
