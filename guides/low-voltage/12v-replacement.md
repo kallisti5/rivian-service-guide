@@ -38,6 +38,28 @@
   * [10mm socket, 13mm socket, and wrench](https://amzn.to/47crE5V) (insulated handle nice to have, but not required)
   * [Plastic clip remover (optional)](https://amzn.to/3L8OWAW)
 
+## Context
+
+### Dual Battery (Early R1, 3/23 and before)
+
+![Dual Battery](12v-dual.jpg)
+
+  1. DCDC Converter Primary
+  2. Power Distribution Primary
+  3. DCDC Converter Secondary
+  4. Power Distribution Secondary
+  5. Electric Power Assisted Steering Primary
+  6. Electric Power Assisted Steering Secondary
+
+#### Observations
+
+  * Appears that most low voltage vehicle power "passes through" this area.
+  * 13A from terminal 3 to terminal 4 while HVAC running and vehicle idle
+
+### Single Battery (Later R1)
+
+> TODO
+
 ## Procedure
 
 ### Validate Number of 12V Batteries
