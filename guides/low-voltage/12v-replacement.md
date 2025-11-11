@@ -24,10 +24,14 @@
 > Early R1 vehicles (Built 3/23 and before) require two batteries. Later builds
 > use a capacitor on the passenger-side, and a single battery.
 
-  * Replacement Battery
-    * **Universal Third Party:** [Any 12v, 18Ah, BT19BL-BS group, internal top thread battery](https://amzn.to/48L0295) + [Reusable Post Relocator](https://soonishev.com/products/battery-post-relocator) (Recommended)
-    * **Drop-in Third Party:** [OHMMU BT19](https://www.ohmmu.com/product-page/12v-lithium-battery-for-r1t-r1s)
-    * **OEM:** DCS-18UNC
+* Replacement Battery
+  * **Drop-in Third Party:** [OHMMU BT19](https://www.ohmmu.com/product-page/12v-lithium-battery-for-r1t-r1s)
+  * **Universal / local Third Party:**
+    * [12v, Deep Cycle, High Rate](https://www.batteriesplus.com/productdetails/slahr12=20c_fr)
+    * [Reusable Post Relocator](https://soonishev.com/products/battery-post-relocator)
+    * [Extended M5 bolt](https://amzn.to/4p4BCfF)
+    * [10mm spacer, 5mm ID, 10mm OD](https://amzn.to/3LVKuWo)
+  * **OEM:** DCS-18UNC
 
 > Note: If you choose to replace the Lead Acid, 12V AGM battery with a LifePo4 battery, take note that charging a LifePo4 battery in freezing conditions **WILL** damage it.  Only use **heated** LifePo4 batteries such as the Ohmmu.
 
