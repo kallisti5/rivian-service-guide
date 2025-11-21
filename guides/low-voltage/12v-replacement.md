@@ -30,7 +30,8 @@
 * Replacement Battery
   * **Drop-in Third Party:** [OHMMU BT19](https://www.ohmmu.com/product-page/12v-lithium-battery-for-r1t-r1s)
   * **Universal / local Third Party:**
-    * [12v, Deep Cycle](https://www.batteriesplus.com/productdetails/sladc12=20c)
+    * [Local Option,  12v, Deep Cycle](https://www.batteriesplus.com/productdetails/sladc12=20c) (wrong post locations, may need rotation of connectors)
+    * [Amazon Option, 12v, Deep Cycle](https://amzn.to/4ocyb5Q)
     * [Reusable Post Relocator](https://soonishev.com/products/battery-post-relocator)
     * [Extended M5 bolt](https://amzn.to/4p4BCfF)
     * [10mm spacer, 5mm ID, 10mm OD](https://amzn.to/3LVKuWo)
