@@ -37,15 +37,14 @@
     * [10mm spacer, 5mm ID, 10mm OD](https://amzn.to/3LVKuWo)
   * **OEM:** C&D DCS-18UNC
     * May be able to purchase from a [dealer](https://www.cdtechno.com/contact-us/locations)
-* Blue painters tape
 
 > Note: If you choose to replace the Lead Acid, 12V AGM battery with a LifePo4 battery, take note that charging a LifePo4 battery in freezing conditions **WILL** damage it.  Only use **heated** LifePo4 batteries such as the Ohmmu.
 
 ## Tools
 
-  * [Mechanic gloves](https://amzn.to/3LwpO7d)
-  * [Electrical tape](https://amzn.to/4oIQMqM)
   * [8mm socket, 10mm socket, 13mm socket, and wrench](https://amzn.to/47crE5V) (insulated handle nice to have, but not required)
+  * [Electrical tape](https://amzn.to/4oIQMqM)
+  * [Mechanic gloves](https://amzn.to/3LwpO7d)
   * [Plastic clip remover (optional)](https://amzn.to/3L8OWAW)
 
 ## Context
@@ -130,7 +129,7 @@
   9. Re-attach all positive wires unwrapping them one by one.
   10. Carefully attach the negative terminal. It may spark.
   11. Ensure all terminals are snug.
-  12. Carefully re-attach the HV disconnect loop and secure the clip.
+  12. Carefully re-attach the high voltage disconnect loop and secure the clip.
 
 ### Recovery.
 
@@ -138,4 +137,4 @@
 
   1. Once the batteries are in the vehicle, enter the cabin and perform a hard reset. (hold the left-most steering wheel button and the emergency blinker button)
   2. Once the vehicle recovers, go into RiDE and perform a 12v low-voltage reset.
-     1. As of today, this doesn't seem to do anything.  A service center might be able to reset it remotely.
+     1. As of today, this doesn't seem to do anything on dual battery vehicles.  A service center might be able to reset it remotely.
