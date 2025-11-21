@@ -45,7 +45,7 @@
 
   * [Mechanic gloves](https://amzn.to/3LwpO7d)
   * [Electrical tape](https://amzn.to/4oIQMqM)
-  * [10mm socket, 13mm socket, and wrench](https://amzn.to/47crE5V) (insulated handle nice to have, but not required)
+  * [8mm socket, 10mm socket, 13mm socket, and wrench](https://amzn.to/47crE5V) (insulated handle nice to have, but not required)
   * [Plastic clip remover (optional)](https://amzn.to/3L8OWAW)
 
 ## Context
