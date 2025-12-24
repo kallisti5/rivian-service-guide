@@ -16,6 +16,7 @@
 ![Replace 12V Battery](warning-12v.jpg)
 
   * "Replace 12V Battery" on driver display
+  * Vehicle will quietly refuse to perform software updates (generally just rebooting when attempted)
   * Unresponsive vehicle refusing to unlock? See [12V emergency power](emergency-jump.md)
 
 ## Cause
@@ -29,6 +30,7 @@
 
 * Replacement Battery
   * **Drop-in Third Party:** [OHMMU BT19](https://www.ohmmu.com/product-page/12v-lithium-battery-for-r1t-r1s)
+    * WARNING: If you run the 2025.38 or later software, There are reports the ohmmu batteries may incorrectly trigger the "12v service" warning. This is likely due to Rivian tightening the battery health metric ranges.
   * **Universal / local Third Party:**
     * [Local Option,  12v, Deep Cycle](https://www.batteriesplus.com/productdetails/sladc12=20c) (wrong post locations, may need rotation of connectors)
     * [Amazon Option, 12v, Deep Cycle](https://amzn.to/4ocyb5Q)
@@ -136,5 +138,5 @@
 > TODO photos
 
   1. Once the batteries are in the vehicle, enter the cabin and perform a hard reset. (hold the left-most steering wheel button and the emergency blinker button)
-  2. Once the vehicle recovers, go into RiDE and perform a 12v low-voltage reset.
-     1. As of today, this doesn't seem to do anything on dual battery vehicles.  A service center might be able to reset it remotely.
+  2. Once the vehicle recovers, go into RiDE to run the "Low Voltage Battery Service"
+     1. As of today, this doesn't seem to do anything on dual battery vehicles... data is being [collected](https://www.rivianforums.com/forum/threads/need-data-points-low-voltage-battery-service-in-ride-functionality.54145/).
