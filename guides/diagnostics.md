@@ -10,6 +10,7 @@ A https://www.crowdsupply.com/dissecto/hydralink may be helpful in better revers
 * An HTTP API is available from the vehicle on http://172.28.2.64:8000
 * An authentication token (likely a Bearer token) is required to manupilate or interact with the API.
 * Examples seem to indicate some kind of ISO-14229 implementation (UDS)
+  * https://pypi.org/project/py-uds/ looks helpful.
   * https://172.28.2.64:8000/api/v1/@dtc/ReportDtcSnapshotRecordByDtcNumber
 
 ### Output example
