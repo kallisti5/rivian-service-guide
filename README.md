@@ -44,8 +44,8 @@ Things you may be quickly searching for :-)
   * Hold the far left steering wheel button and the emergency flasher for 15 seconds
 * **ODB2 Port**
   * No CAN bus available (not required on Electric Vehicles)
-  * Random ODB2 adapters will likely not work.
-  * Communicates over DoIP
+  * Generic ODB2 / Serial CAN / ELM327 diagnostic adapters will *not* work.
+  * DoIP / Unified Diagnostic Services over Ethernet only.
 
 # Official Service Manual and Tools
 
@@ -75,39 +75,16 @@ aftersalessupport@rivian.com directly for access.
 The shopify store is at https://rivian-service-subscription.myshopify.com, however you will
 need the one-time link to login.
 
-## ODB2 Port
-
-The ODB2 port on the Rivian R1T seems to not offer standard CAN communications
-(as CAN is no longer required for electric vehicles).
-
-The Rivian ODB2 port does however offer a standard DoIP interface (used by the likes of BMW, etc)
-
-You can attach to this DoIP interfance, and get an ethernet link.
-Sniffing activity with Wireshark (which should be DoIP aware) shows no activity or communication.
-
-Thoughts:
-  * The standard 510 Ohm resistor in the BMW adapters isn't the correct value to give access to DoIP.
-  * You have to provide a certificate to some silent network endpoint to authenticate for access.
-
-## Diagnostic Software (Full Service Center RiDE)
-
-Rivian runs a proprietary diagnostic server to service vehicle systems. (RiDE)
-
-  * Rivian technicians leverage Windows-based laptops
-  * Rivian technicians connect to their service vehicle's or service center's wifi network
-  * Rivian technicians connect to a corporate Rivian Palo Alto VPN
-  * Techs access a web-based diagnostic software system on an internal goriv.co domain
-  * The web-based diagnostic software communicates to the vehicle over their ODB2 service adapter
-
-Rivian has extremely detailed historical logs / graphs about the state of every subsystem in your vehicle
-down to control pins being high or low.
-
 # Guides
 
 ## General
 
   * [Process Information](guides/process.md)
   * [General Maintenance](guides/maintenance.md)
+
+## Diagnostics
+
+  * [Diagnostics / ODB2 / RiDE](guides/diagnostics.md)
   
 ## Low Voltage Subsystems
 

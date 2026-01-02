@@ -2,16 +2,47 @@
 
 > WIP: This is a heavy work in progress. Physical access to the services won't get you very far until owners can authenticate to the vehicle.
 
-Rivian vehicles offer UDS (Unified Diagnostic Services) over an Ethernet connection available within
-the ODB2 connector.
+Rivian vehicles offer [UDS (Unified Diagnostic Services)](https://en.wikipedia.org/wiki/Unified_Diagnostic_Services) over an Ethernet connection available within the ODB2 connector.
 
 The vehicles require authentication to communicate with the various UDS capabilities.
 
 > A https://www.crowdsupply.com/dissecto/hydralink may be helpful in better reverse engineering the RiDE interface
 
+# Official Diagnostic Software (Full Service Center RiDE)
+
+  * Rivian Technicians leverage Windows-based laptops
+    * Technician connects to their service vehicle or service center wifi network
+    * Rivian technician connects to a corporate Rivian Palo Alto VPN
+  * Rivian technician connects their laptop to the vehicle via an ethernet interface over the ODB2 port (hardware below)
+  * A web-based diagnostic software system (RiDE) on an internal goriv.co domain is accessed
+  * The web-based diagnostic software communicates to the vehicle via a private IP (172.28.2.64:8000) over the ODB2 port
+  * The web-based diagnostic software authenticates to the vehicle via the presented API
+  * RiDE seems to issue UDS (Unified Diagnostic Services) API calls to vehicle
+
+Rivian has extremely detailed historical logs / graphs about the state of every subsystem in your vehicle
+down to control pins being high or low.
+
 ## Hardware Connection
 
-Standard BMW eNet ethernet adapters work just fine. Obviously BMW coding tools (bimmercode, e-Sys, etc) won't work.
+Standard BMW eNET ethernet adapters work just fine. Obviously BMW coding tools (bimmercode, e-Sys, etc) won't work.
+
+**Required:**
+
+ODB2 Pin | Ethernet Pin | Notes
+---------+--------------+--------------
+       3 | 1            | Ethernet RX+
+      11 | 2            | Ethernet RX-
+      12 | 3            | Ethernet TX+
+      13 | 6            | Ethernet RX-
+  8 + 16 | -            | Resistor between +12v and pin 8. 510 Ohm. May not be required on Rivian
+
+**Optional:**
+
+> These are listed because they're common on BMW eNET cables, however they likely serve no purpose on Rivian vehicles
+
+ODB2 Pin  | Ethernet Pin | Notes
+----------+--------------+--------------
+   4 + 5  | 8            | Signal Ground tied to chassis ground. Commonly tied to ethernet pin 8 for "reasons"
 
 ## Software Connection
 
@@ -100,7 +131,7 @@ Standard BMW eNet ethernet adapters work just fine. Obviously BMW coding tools (
 }
 ```
 
-### Example response without auth
+### Example response without authentication
 ```json
 # curl http://172.28.2.64:8000/api/v1/@dtc/ReportDtcSnapshotId -v
 *   Trying 172.28.2.64:8000...
@@ -122,7 +153,7 @@ Standard BMW eNet ethernet adapters work just fine. Obviously BMW coding tools (
 ### Example Response with invalid bearer token
 
 > Note: I'm not sure if a Bearer token is the way to authenticate,
-> but it does make the vehicle repond differently
+> but it does make the vehicle respond differently
 
 ```json
 # curl http://172.28.2.64:8000/api/v1/@dtc/ReportDtcSnapshotId -H "Authorization: Bearer HelloRivian" -v
