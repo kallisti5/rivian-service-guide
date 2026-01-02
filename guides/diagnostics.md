@@ -28,21 +28,21 @@ Standard BMW eNET ethernet adapters work just fine. Obviously BMW coding tools (
 
 **Required:**
 
-ODB2 Pin | Ethernet Pin | Notes
----------+--------------+--------------
-       3 | 1            | Ethernet RX+
-      11 | 2            | Ethernet RX-
-      12 | 3            | Ethernet TX+
-      13 | 6            | Ethernet RX-
-  8 + 16 | -            | Resistor between +12v and pin 8. 510 Ohm. May not be required on Rivian
+|ODB2 Pin | Ethernet Pin | Notes                                                                   |
+| ------: | :----------- | :---------------------------------------------------------------------- |
+|       3 | 1            | Ethernet RX+                                                            |
+|      11 | 2            | Ethernet RX-                                                            |
+|      12 | 3            | Ethernet TX+                                                            |
+|      13 | 6            | Ethernet RX-                                                            |
+|  8 + 16 | -            | Resistor between +12v and pin 8. 510 Ohm. May not be required on Rivian |
 
 **Optional:**
 
 > These are listed because they're common on BMW eNET cables, however they likely serve no purpose on Rivian vehicles
 
-ODB2 Pin  | Ethernet Pin | Notes
-----------+--------------+--------------
-   4 + 5  | 8            | Signal Ground tied to chassis ground. Commonly tied to ethernet pin 8 for "reasons"
+|ODB2 Pin | Ethernet Pin | Notes                                                                               |
+| ------: | :----------- | :---------------------------------------------------------------------------------- |
+|   4 + 5 | 8            | Signal Ground tied to chassis ground. Commonly tied to ethernet pin 8 for "reasons" |
 
 ## Software Connection
 
