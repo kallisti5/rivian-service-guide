@@ -1,12 +1,15 @@
 # Diagnostics
 
-> WIP: This is a heavy work in progress. Physical access to the services won't get you very far until owners can authenticate to the vehicle.
-
 Rivian vehicles offer [UDS (Unified Diagnostic Services)](https://en.wikipedia.org/wiki/Unified_Diagnostic_Services) over an Ethernet connection available within the ODB2 connector.
 
 The vehicles require authentication to communicate with the various UDS capabilities.
 
-> A https://www.crowdsupply.com/dissecto/hydralink may be helpful in better reverse engineering the RiDE interface
+> Wireguard sniffing the communication of the official RiDE software to the vehicle
+> should be possible from systems interacting with the vehicle (running the official software)
+> or with a 3rd device + an old network hub (not switch).
+
+> RiDE to vehicle communication happens over clear text http, so any authentication tokens
+> should be visible (these are short lived though and likely licensed user specific)
 
 # Official Diagnostic Software (Full Service Center RiDE)
 
@@ -19,8 +22,10 @@ The vehicles require authentication to communicate with the various UDS capabili
   * The web-based diagnostic software authenticates to the vehicle via the presented API
   * RiDE seems to issue UDS (Unified Diagnostic Services) API calls to vehicle
 
-Rivian has extremely detailed historical logs / graphs about the state of every subsystem in your vehicle
-down to control pins being high or low.
+Rivian has extremely detailed historical metrics / graphs about the state of every subsystem in your vehicle
+down to control pins being high or low. These metrics are retained for around 85-90 days.
+
+Looks like standard Grafana dashboards for the most part. (and available to service advisors)
 
 ## Hardware Connection
 
@@ -176,3 +181,7 @@ Standard BMW eNET ethernet adapters work just fine. Obviously BMW coding tools (
 
 * Closing connection 0
 ```
+
+# Other tools
+
+* https://www.crowdsupply.com/dissecto/hydralink - Sniffing high-speed vehicle Ethernet traffic
