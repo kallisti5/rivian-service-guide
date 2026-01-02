@@ -47,7 +47,7 @@ Things you may be quickly searching for :-)
   * Generic ODB2 / Serial CAN / ELM327 diagnostic adapters will *not* work.
   * DoIP / Unified Diagnostic Services over Ethernet only.
 
-# Official Service Manual and Tools
+# Official Service Manual, Tools, and Parts
 
 Rivian offers their official service manual and tools to 3rd party shops for a standard shop fee.
 
@@ -62,7 +62,7 @@ states "Right to Repair" laws.**
 
 [Support right-to-repair today](https://www.nytimes.com/wirecutter/blog/what-is-right-to-repair/)
 
-## Rivian Annual Subscription Rates per User:
+## Official Rivian Manual / Software Subscription
 
   * SUBSB2B201 - Part Catalog for Parts Purchase - NO CHARGE
   * SUBSB2B202 - Part Catalog + Service Manual + Online Training  = $2,500/year
@@ -74,6 +74,12 @@ aftersalessupport@rivian.com directly for access.
 
 The shopify store is at https://rivian-service-subscription.myshopify.com, however you will
 need the one-time link to login.
+
+## Official Service Tools
+
+Rivian appears to be publicly offering official service tools as of 2024 🎉
+
+[rivianservicetools.com](https://rivianservicetools.com)
 
 # Guides
 
