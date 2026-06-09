@@ -13,7 +13,7 @@
 * *Description:* "Loud suspension 'creak' adjusting suspension or going over minor bumps"
   * Known defect. Make sure the issue is occurring, and record video of noise.
   * Rivian service will generally replace several suspension components to address.
-  * Related to excessive wear of 
+  * Related to excessive wear of critical suspension components.
 * *Description:* "Musty smell in cabin.  Wet front carpet"
   * A/C condensation pan leak.  A/C condensation pan develops a defect which causes condensation
     to drain into cabin.
