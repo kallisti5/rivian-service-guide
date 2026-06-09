@@ -77,14 +77,18 @@ need the one-time link to login.
 
 ## Official Service Tools
 
-Rivian appears to be publicly offering official service tools as of 2024 🎉
+* Rivian appears to be publicly offering official service tools as of 2024 🎉
 
 [rivianservicetools.com](https://rivianservicetools.com)
+
+* Rivian appears to be offering official service manuals as of 2026 through AllDataDIY.com 🎉
+  * However, it appears to be limited to the corporate AllDataDIY accounts and not DIY 💀
 
 # Guides
 
 ## General
 
+  * [Problems](guides/problems.md)
   * [Process Information](guides/process.md)
   * [General Maintenance](guides/maintenance.md)
 
