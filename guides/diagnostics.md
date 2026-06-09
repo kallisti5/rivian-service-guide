@@ -4,7 +4,7 @@ Rivian vehicles offer [UDS (Unified Diagnostic Services)](https://en.wikipedia.o
 
 The vehicles require authentication to communicate with the various UDS capabilities.
 
-> Wireguard sniffing the communication of the official RiDE software to the vehicle
+> Wireshark sniffing the communication of the official RiDE software to the vehicle
 > should be possible from systems interacting with the vehicle (running the official software)
 > or with a 3rd device + an old network hub (not switch).
 
