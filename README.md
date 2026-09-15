@@ -32,10 +32,14 @@ Things you may be quickly searching for :-)
 * **Lug Nuts**
   * Should be torqued to 190 Nm / 140 Ft Lb in a standard star pattern
 * **RiDE Service Menu** - NOT A TOY.
-  * Settings -> Service -> Enable Service Mode
-  * Tap top bar 5 times. Tap on quote 5 times.
-    * Recent Firmware (5 digit): 33748
-    * Old Firmware (4 digit): 7433
+  1. Settings -> Service -> Enable Service Mode
+  2. Enable RiDE app:
+     * Rivian OS 2: Tap and hold the wrench icon on left dock for 5 seconds.
+     * Older: Tap top bar 5 times.
+  3. Open RiDE app. Tap on quote 5 times.
+  4. Pin:
+     * Recent Firmware (5 digit): 33748
+     * Old Firmware (4 digit): 7433
 * **Soft Reset** - Can fix screen glitches, hotspot glitches, navigation issues, etc.
   * Hold the far left and right buttons on the steering wheel for around 15 seconds.
 * **Hard Reset** - Full computer restart.
