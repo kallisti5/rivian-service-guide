@@ -1,6 +1,6 @@
-# Rivian Service Guide
+# Rivian vehicle service guide
 
-Welcome to the unofficial Rivian Service Guide!
+Welcome to the unofficial Rivian vehicle service guide!
 
 **If you use or enjoy this, please consider donating some cash via [ko-fi](https://ko-fi.com/kallisti5)!**
 
@@ -14,8 +14,13 @@ Best viewed here: https://github.com/kallisti5/rivian-service-guide/blob/main/RE
 
 Rivian is a registered trademark of [Rivian](https://rivian.com).
 
-This guide is unofficial and has no direct relationship with Rivian.
-The authors will accept no responsibility if the steps in this guide break your vehicle or void your warranty.
+All trademarks and brand names referenced within this guide are the property of their
+respective owners and are used solely to identify the products or services being
+referenced. Such use does not imply affiliation, sponsorship, endorsement, or
+authorization by the respective trademark owners.
+
+The authors will accept no responsibility if the steps in this guide break your
+vehicle or void your warranty. You work on your owned things at your own risk.
 
 ## Quick Lookup
 
@@ -58,11 +63,6 @@ Rivian offers their official service manual and tools to 3rd party shops for a s
 **Unfortunately Rivian does *NOT* offer DIY / consumer-focused Service Manuals
 or Diagnostic tooling (which even GM provides) which may violate several US
 states "Right to Repair" laws.**
-
-> Using Texas as an example, HB 2963 requires:
->
-> "manufacturers provide spare parts, manuals, and required tools for products sold or
-> used in Texas", effective Sept, 1, 2026
 
 [Support right-to-repair today](https://www.nytimes.com/wirecutter/blog/what-is-right-to-repair/)
 
