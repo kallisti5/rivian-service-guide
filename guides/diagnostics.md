@@ -38,7 +38,7 @@ Standard BMW eNET ethernet adapters work just fine. Obviously BMW coding tools (
 |       3 | 1            | Ethernet RX+                                                            |
 |      11 | 2            | Ethernet RX-                                                            |
 |      12 | 3            | Ethernet TX+                                                            |
-|      13 | 6            | Ethernet RX-                                                            |
+|      13 | 6            | Ethernet TX-                                                            |
 |  8 + 16 | -            | Resistor between +12v and pin 8. 510 Ohm. May not be required on Rivian |
 
 **Optional:**
@@ -59,8 +59,7 @@ Standard BMW eNET ethernet adapters work just fine. Obviously BMW coding tools (
 ### Interesting Observations
 
 * The vehicle appears to run a Python-based web server
-  * Python/3.9 (Pretty recent!), aiohttp/3.9.5 [CVEs](https://nvd.nist.gov/vuln/detail/CVE-2024-23334)
-  * (psst, Rivian, don't expose internal software versions if you're worried about security here!)
+  * Python/3.9 (EOL as of Oct 2025), aiohttp/3.9.5
  
 ### Example Status Output
 **Example output from /api/v1/status**
@@ -181,6 +180,9 @@ Standard BMW eNET ethernet adapters work just fine. Obviously BMW coding tools (
 
 * Closing connection 0
 ```
+# Other Information
+
+* [HakStuff](https://www.hakstuff.net/blog/teardown-rivian-r1s-axm-module) has a *great* write-up on the internals of the Rivian AXM module. This will likely be critical for determining the UDS authentication algorithm allowing owners to diagnose and repair their own vehicles.
 
 # Other tools
 
