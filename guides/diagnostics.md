@@ -184,6 +184,33 @@ Standard BMW eNET ethernet adapters work just fine. Obviously BMW coding tools (
 
 * [HakStuff](https://www.hakstuff.net/blog/teardown-rivian-r1s-axm-module) has a *great* write-up on the internals of the Rivian AXM module. This will likely be critical for determining the UDS authentication algorithm allowing owners to diagnose and repair their own vehicles.
 
+# Rivian API Endpoints
+
+## Likely vehicle communications
+
+> It's my WiFi, I'll capture whatever DNS queries I want.
+
+* device.ota.goriv.co
+  * Notes: Tightly coupled to OTA updates
+* api.rivianservices.com
+  * Notes: Unknown, some API endpoint the vehicle uses
+* ruploader-asset.prod.rivianservices.com
+* cloud.rivianservices.com
+* firebaselogging.googleapis.com
+* d1h7cifmxh3iyz.cloudfront.net
+* Obvious AWS S3 buckets
+  * rivian-p-adas-uw2-acm-logs.s3.amazonaws.com
+    * Notes: ADAS log uploads
+  * dp-uploader-vehicle-telemetry-prod-us-west-2.s3.amazonaws.com
+    * Notes: vehicle telemetry uploads
+  * dp-uploader-privacy-pcap-prod-us-west-2.s3.amazonaws.com
+    * Notes: uploads of packet captures from vehicle communications... :-\
+* time.cloudflare.com - NTP
+
+## Likely mobile app communications
+
+* api.rivian.com
+
 # Other tools
 
 * https://www.crowdsupply.com/dissecto/hydralink - Sniffing high-speed vehicle Ethernet traffic
