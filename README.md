@@ -85,8 +85,7 @@ need the one-time link to login.
 
 [rivianservicetools.com](https://rivianservicetools.com)
 
-* Rivian appears to be offering official service manuals as of 2026 through AllDataDIY.com 🎉
-  * However, it appears to be limited to the corporate AllDataDIY accounts and not DIY 💀
+* As of Oct, 2026, alldatadiy.com is offering Rivian service manuals! 🎉
 
 # Guides
 
