@@ -60,9 +60,8 @@ Things you may be quickly searching for :-)
 
 Rivian offers their official service manual and tools to 3rd party shops for a standard shop fee.
 
-**Unfortunately Rivian does *NOT* offer DIY / consumer-focused Service Manuals
-or Diagnostic tooling (which even GM provides) which may violate several US
-states "Right to Repair" laws.**
+**Unfortunately Rivian does *NOT* offer DIY / consumer-focused Diagnostic tooling (which even GM provides)
+which may violate several US states "Right to Repair" laws.**
 
 [Support right-to-repair today](https://www.nytimes.com/wirecutter/blog/what-is-right-to-repair/)
 
